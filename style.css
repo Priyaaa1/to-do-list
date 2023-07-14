@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: mediumpurple;
+    background: linear-gradient(135deg, rgb(112, 82, 171), rgb(179, 102, 179));
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     min-height: 100vh;
@@ -13,6 +13,7 @@ body {
 
 header {
     font-size: 1.5rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 header,
@@ -58,7 +59,7 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 20%;
     list-style: none;
 }
 
@@ -73,6 +74,7 @@ form button:hover {
     border-radius: 2rem;
     margin: 0.5rem;
     padding-left: 1rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .todo li {
